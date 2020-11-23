@@ -6,7 +6,7 @@ algo.set_item(555,3)
 
 print(algo.get_item(3))
 print(f"El arreglo tiene {algo.get_lenght()} elementos")
-algo.clear(777)
+
 print(algo.get_item(3))
 print("------------")
 for x in algo:
