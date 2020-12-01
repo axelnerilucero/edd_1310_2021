@@ -1,0 +1,25 @@
+from os import system
+system("cls")
+
+from lista_circular import CircularList
+
+lc = CircularList()
+print(f"La lista circular esta vacia? {lc.is_empty()}")
+print(f"Elementos en la lista: {lc.size()}")
+lc.insertar(104)
+lc.insertar(10)
+lc.insertar(7)
+lc.insertar(5)
+lc.insertar(3)
+lc.insertar(2)
+lc.insertar(-1)
+lc.insertar(-4)
+lc.insertar(-24)
+print(f"La lista circular esta vacia? {lc.is_empty()}")
+print(f"Elementos en la lista: {lc.size()}")
+lc.transversal()
+lc.search(105)
+lc.search(10)
+lc.remove(3)
+print(f"Elementos en la lista: {lc.size()}")
+lc.transversal()
